@@ -1,0 +1,145 @@
+body { 
+	font-family: "Times New Roman", Times, serif; 
+	margin: 0; 
+	padding: 0; 
+} 
+
+header { 
+	background-color: #333; 
+	color: #fff; 
+	display: flex; 
+	justify-content: center; 
+	padding: 1em; 
+	text-align: center;
+} 
+
+nav ul { 
+	display: flex; 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	justify-content: center;
+} 
+
+nav a { 
+	color: #fff; 
+	display: block; 
+	padding: 1em; 
+	text-decoration: none; 
+} 
+
+#main-news { 
+	font-size: 1.5em; 
+	text-decoration: none;
+} 
+
+main { 
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: center; 
+	margin: 2em 0; 
+	text-decoration: none;
+} 
+
+section { 
+	background-color: #efefef; 
+	border: 1px solid #d9d9d9; 
+	box-shadow: 2px 2px 5px #ccc; 
+	flex-basis: calc(100% / 3 - 2em); 
+	min-height: 10em;
+	margin: 1em; 
+	padding: 1em; 
+	text-align: center; 
+} 
+
+h2 { 
+	margin: 0; 
+} 
+
+p { 
+	margin: 0; 
+}
+
+.forum {
+	background-color: #efefef;
+	border: 1px solid #d9d9d9;
+	box-shadow: 2px 2px 5px #ccc;
+	display: flex;
+	flex-direction: column;
+	margin: 1em;
+	padding: 1em;
+	text-align: center;
+	width: 30%;
+  } 
+
+.forum h2 {
+	margin: 0;
+  }
+  
+  .forum-header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1em;
+  }
+  
+  .forum-header h3 {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+  }
+  
+  .forum-header button {
+	background-color: #333;
+	border: 1px solid #333;
+	color: #fff;
+	cursor: pointer;
+	padding: 0.5em 1em;
+	font-size: 1em;
+	font-weight: bold;
+  }
+  
+  .forum-header button:hover {
+	background-color: #fff;
+	color: #333;
+  }
+  
+  .forum-body {
+	border: 1px solid #d9d9d9;
+	height: 200px;
+	overflow-y: scroll;
+	padding: 1em;
+  }
+  
+  .forum-body p {
+	margin: 0;
+  }
+  
+  .forum-footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1em;
+  }
+  
+  .forum-footer input[type="text"] {
+	border: 1px solid #d9d9d9;
+	padding: 0.5em;
+	width: 80%;
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+  }
+  
+  .forum-footer button {
+	background-color: #333;
+	border: 1px solid #333;
+	color: #fff;
+	cursor: pointer;
+	padding: 0.5em 1em;
+	font-size: 1em;
+	font-weight: bold;
+  }
+  
+  .forum-footer button:hover {
+	background-color: #fff;
+	color: #333;
+  }

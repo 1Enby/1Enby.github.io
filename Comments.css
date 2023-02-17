@@ -1,0 +1,110 @@
+body {
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+margin: 0;
+padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Georgia', serif;
+font-weight: bold;
+}
+
+a {
+color: #000;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+header {
+background-color: #f8f8f8;
+border-bottom: 1px solid #d6d6d6;
+padding: 10px;
+}
+
+nav {
+width: 50%;
+margin: 0;
+padding: 0;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+display: inline-block;
+margin-right: 10px;
+}
+
+nav a {
+display: block;
+padding: 10px;
+}
+
+nav a:hover {
+background-color: #d6d6d6;
+}
+
+main {
+max-width: 1000px;
+
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.comment {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+.comment h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.comment p {
+    margin-bottom: 20px;
+}
+.comment small {
+    font-style: italic;
+    color: #999;
+}
