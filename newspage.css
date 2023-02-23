@@ -136,18 +136,21 @@ nav.washingtonpost a {
   color: #fff;
 }
 .polls-container {
-  width: 50%;
-  float: left;
+  /*width: 50%;
+  float: left;*/
   margin-top: 1rem;
-
 }
 
+#pollcolumn {
+  flex-shrink: 0;
+}
 .poll {
   background-color: #f9f9f9;
   padding: 1rem;
 }
 
 .poll h3 {
+  min-width: min-content;
   margin-top: 0;
 }
 
@@ -201,12 +204,15 @@ nav.washingtonpost a {
   font-weight: bold;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
 }
-#top_left{
-  float:left;
-  width:50%;
-}
-#top_right{
-  float:right;
-  width:50%;
+
+#columns {
+	max-width: max(50%, 100ex);
+	display: flex;
+	flex-direction: row;
+	gap: 2ex;
 }
