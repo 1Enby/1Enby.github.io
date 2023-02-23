@@ -108,3 +108,7 @@ input[type="submit"] {
     font-style: italic;
     color: #999;
 }
+#disqus_thread{
+    layout: default
+    comments: true
+}
